@@ -13,4 +13,5 @@ RUN apt-get install nano -y
 RUN apt-get update -y \
   && apt-get install gnuplot -y
 RUN apt install xterm -y
+RUN git clone https://github.com/lakshmi-sathi/avsdpll_1v8
 RUN git clone https://github.com/kariefury/xor
