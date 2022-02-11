@@ -10,8 +10,8 @@
  v3 pos_supply 0 1.0
  *v3 pos_supply 0 SINE(0 1.8 10000000 0 0 0)
  v4 neg_supply 0 0.0
- v2 ain01 0 PULSE 0.0 1.8 1n 20p 20p 2n 4ns
- v5 bin01 0 PULSE 0 1.8 1n 20p 20p 2n 4ns
+ v2 ain01 0 PULSE 1.8 0.0 1n 20p 20p 2n 4ns
+ v5 bin01 0 PULSE 0.0 1.8 1n 20p 20p 2n 4ns
  v6 ain11 0 PULSE 1.8 0.0 1n 20p 20p 2n 4ns
  v7 bin11 0 PULSE 1.8 0.0 1n 20p 20p 2n 4ns
 .control  
