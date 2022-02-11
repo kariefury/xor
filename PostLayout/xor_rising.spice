@@ -17,7 +17,7 @@
  tran 1ps 50ns
  *plot  
  gnuplot gp v(ain01) v(bin01) v(xout_2_xor2)+2 v(xout_2_swap_xor2)+4 v(pos_supply)
- gnuplot gpa v(ain10) v(bin10) v(xout_3_xor2)+2 v(xout_3_swap_xor2)+4 v(pos_supply)
+ gnuplot gpa v(ain11) v(bin11) v(xout_3_xor2)+2 v(xout_3_swap_xor2)+4 v(pos_supply)
 .endc
  
  
