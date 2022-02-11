@@ -4,7 +4,7 @@
  Xxor2 neg_supply bin01 ain01 pos_supply xout_2_xor2 neg_supply pos_supply xor2
  Xxor2swap neg_supply ain01 bin01 pos_supply xout_2_swap_xor2 neg_supply pos_supply xor2
  Xxor3 neg_supply bin10 ain10 pos_supply xout_3_xor2 neg_supply pos_supply xor2
- Xxor3swap neg_supply ain10 bin10 pos_supply xout_3_xor2 neg_supply pos_supply xor2
+ Xxor3swap neg_supply ain10 bin10 pos_supply xout_3_swap_xor2 neg_supply pos_supply xor2
 
  *Xxor3 ain bin neg_supply neg_supply pos_supply pos_supply xoutmodel sky130_fd_sc_hd__xor2_1
  v3 pos_supply 0 SINE(0 1.8 10000000 0 0 0)
