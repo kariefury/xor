@@ -1,4 +1,4 @@
-For a 2-bit XOR the Boolean function is A(B') + (A')B = C and then for a static CMOS implementation of that function the transistor input network is uneven for the 2 inputs, so A might go into 2 transistors while B goes into 4 transistors. 
+For a 2-bit XOR the Boolean function is A(B') + (A')B = X and then for a static CMOS implementation of that function the transistor input network is uneven for the 2 inputs, so A might go into 2 transistors while B goes into 4 transistors. 
 Also, the speed of operation between the PMOS transistors and the NMOS transistors is uneven, so practically building an XOR where the time it takes the output to be the correct logical value for the original values of A and B, to what they are for the new calculation is uneven. 
 
 Taking a layout of 2 input XOR from https://github.com/google/skywater-pdk-libs-sky130_fd_sc_hd/
