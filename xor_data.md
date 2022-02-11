@@ -1,6 +1,13 @@
 For a 2-bit XOR the Boolean function is A(B') + (A')B = C and then for a static CMOS implementation of that function the transistor input network is uneven for the 2 inputs, so A might go into 2 transistors while B goes into 4 transistors. 
 Also, the speed of operation between the PMOS transistors and the NMOS transistors is uneven, so practically building an XOR where the time it takes the output to be the correct logical value for the original values of A and B, to what they are for the new calculation is uneven. 
+
+Taking a layout of 2 input XOR from https://github.com/google/skywater-pdk-libs-sky130_fd_sc_hd/
+
+This layout is the 8 + 2 transistor layout. 8T for the function and 2T to invert the output.
+
 ![xor2](https://github.com/kariefury/xor/blob/main/xor2.PNG)
+
+Taking a parasitic capacitance extraction of the layout for simulation in ngspice.
 
 Simulating that circuit with sin wave for the power. (1.8V is standard for Skywater 130nm).
 
@@ -44,7 +51,7 @@ Simulating only looking at transitions 01,01 and for 0.9V to power -0.1V ground
 
 
 
-###Marc Riedel's Cyclic combinational logic for XOR
+### Marc Riedel's Cyclic combinational logic for XOR
 
 The circuit is two 2-input XOR gates, with input A into XOR1 as well as XOR2, and the output of XOR1 input to XOR2, and the output of XOR2 into XOR1.
 
